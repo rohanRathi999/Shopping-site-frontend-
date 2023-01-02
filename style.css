@@ -228,3 +228,17 @@ i{
     margin-top: 4%;
     margin-left: 5%;
 }
+.outrodiv{
+    width: 300%;
+    height: 30%;
+}
+.outrodiv p{
+    margin: 3% 0% 2% 4.5%;
+    font-size: small;
+    font-weight: 200;
+    color: rgb(208, 207, 207);
+    background-color: #303132;
+}
+p span{
+    text-decoration: underline;
+}
