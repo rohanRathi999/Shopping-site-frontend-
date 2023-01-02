@@ -46,6 +46,10 @@ img{
     color: rgb(216, 222, 228);
     font-weight: 300;
     font-size: 0.9rem;
+    transition: 0.1s;
+}
+.nav-items ul li a:hover{
+    color: rgb(135, 135, 247);
 }
 
 img{
@@ -79,6 +83,7 @@ button{
     margin: 2% 30%;
     cursor: pointer;
     border: none;
+    opacity: 3;
 }
 button:hover{
     background-color: white;
@@ -127,11 +132,13 @@ hr{
 .firstdiv {
     width: 70%;
     margin-left: 54%;
+    cursor: pointer;
 }
 
 .seconddiv{
     width: 69.9%;
     margin-left: 27%;
+    cursor: pointer;
 }
 .seconddiv img{
     position: relative;
@@ -141,6 +148,7 @@ hr{
 .thirddiv {
     width: 70%;
     margin-right: 40%;
+    cursor: pointer;
 }
 .maindivs h4{
     background-color: rgb(47, 47, 47);
@@ -210,4 +218,13 @@ hr{
 }
 #buttonn:hover{
     background-color: rgb(255, 255, 255);
+}
+
+#linkedin{
+    margin-left: 53%;
+}
+i{
+    color: white;
+    margin-top: 4%;
+    margin-left: 5%;
 }
