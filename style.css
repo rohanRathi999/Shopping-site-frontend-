@@ -241,4 +241,5 @@ i{
 }
 p span{
     text-decoration: underline;
+    cursor: pointer;
 }
