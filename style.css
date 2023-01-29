@@ -1,20 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@400;500;600;800&family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700&display=swap');
 
 body{
+    size: 100%;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
-img{
-    width: 100%;
-}
 .navbarr{
     display: grid;
-    grid-template-columns: 0.8fr 1.8fr 0.2fr;
-    column-gap: 30px;
+    grid-template-columns: 0.8fr 1.8fr 0.4fr;
+    column-gap: 2%;
     background-color: rgb(85, 82, 82);
-    overflow: hidden;
     position: fixed;
     top: 0;
     width: 100%;
@@ -22,8 +19,7 @@ img{
 }
 
 .navlogo{
-    padding-left: 35%;
-    margin: 7% 6% 8%;
+    margin: 8% 6% 7% 30%;
     color: rgb(220, 231, 231);
 }
 .navlogo h2{
@@ -62,29 +58,29 @@ img{
 .lessopacitycont{
     background-color: white;
     opacity: 0.6;
-    width: 545px;
-    margin: auto;
+    width: 45vw;
+    margin: 0% 27% 20% 27%;
     padding: 1% 0.8%;
     position: absolute;
     top: 50%;
-    left: 30%;
+    /* left: 27%; */
+    /* right: 27%; */
 }
 
 .lessopacitycont p{
     font-weight: 600;
     font-size: 2.5rem;
-    margin: 3% 22% 1%;
 }
 
 button{
     background-color: black;
     color: aliceblue;
     padding: 1% 12%;
-    margin: 2% 30%;
     cursor: pointer;
     border: none;
     opacity: 3;
 }
+
 button:hover{
     background-color: white;
     color: black;
@@ -95,6 +91,7 @@ button:hover{
 .shippingtxt{
     background-color: #d3d3d399;
 }
+
 .shippingtxt p{
     padding: 1%;
     margin-left: 38%;
@@ -104,10 +101,11 @@ button:hover{
     font-size: 15px;
     color: rgb(21, 21, 21);
 }
+
 .main-content{
     display: inline-block;
     width: 35%;
-    margin: 6% 38.6% 2%;
+    margin: 6% 32.5% 2%;
     letter-spacing: 5px;
     word-spacing: 5px;
 }
@@ -115,13 +113,15 @@ button:hover{
 hr{
     width: 7%;
     height: 3px;
-    margin-left: 30%;
+    margin-left: 46%;
     color: black;
 }
+
 .main-content p{
-    margin-left: 10%;
+    margin-left:2.5%;
     margin-top: 7.7%;
 }
+
 .maindivs{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -140,6 +140,7 @@ hr{
     margin-left: 27%;
     cursor: pointer;
 }
+
 .seconddiv img{
     position: relative;
     z-index: -1;
@@ -150,6 +151,7 @@ hr{
     margin-right: 40%;
     cursor: pointer;
 }
+
 .maindivs h4{
     background-color: rgb(47, 47, 47);
     color:rgb(220, 231, 231);
@@ -158,6 +160,7 @@ hr{
     font-weight: 300;
     font-size: medium;
 }
+
 .mainfooter{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -165,6 +168,7 @@ hr{
     background-color:#303132;
     height: 270px;
 }
+
 .mainfooter p{
     color: rgb(220, 231, 231);
     text-align: center;
@@ -173,18 +177,22 @@ hr{
     font-weight: 100;
     font-size: 14px;
 }
+
 .firstfooterdiv p{
     margin-left: 40%;
 }
+
 .thirdfooterdiv p{
     margin-right: 40%;
 }
+
 .thirdfooterdiv h6{
     color: white;
     font-size: small;
     font-weight: 200;
     margin-left: 17%;
 }
+
 .h6firstOne{
     margin-top: 6.2%;
 }
@@ -198,14 +206,17 @@ hr{
     margin-left: 16%;
     padding: 0.5% 11% 0.8% 9%;
 }
+
 #yourmail:hover{
     background-color: #808082;
 }
+
 ::placeholder{
     color: white;
     font-size: small;
     font-weight: 200;
 }
+
 #buttonn{
     font-size: small;
     font-weight: 200;
@@ -216,6 +227,7 @@ hr{
     color: black;
     transition: 0.1s;
 }
+
 #buttonn:hover{
     background-color: rgb(255, 255, 255);
 }
@@ -223,15 +235,18 @@ hr{
 #linkedin{
     margin-left: 53%;
 }
+
 i{
     color: white;
     margin-top: 4%;
     margin-left: 5%;
 }
+
 .outrodiv{
     width: 300%;
     height: 30%;
 }
+
 .outrodiv p{
     margin: 3% 0% 2% 4.5%;
     font-size: small;
@@ -239,6 +254,7 @@ i{
     color: rgb(208, 207, 207);
     background-color: #303132;
 }
+
 p span{
     text-decoration: underline;
     cursor: pointer;
