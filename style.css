@@ -467,7 +467,7 @@ p span {
 #RadioInput{
     width: 25px;
     height: 25px;
-    accent-color: purple;
+    accent-color: rgb(72, 7, 42);
 }
 
 #quantity{
