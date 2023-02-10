@@ -4,3 +4,5 @@ const navitems = document.getElementsByClassName('nav-items')[0]
 toggleBtn.addEventListener('click', () => {
   navitems.classList.toggle('active')
 })
+
+

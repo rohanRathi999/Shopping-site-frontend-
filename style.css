@@ -93,7 +93,7 @@ img {
     font-size: 2.5rem;
 }
 
-button {
+#shop {
     background-color: black;
     color: aliceblue;
     padding: 1% 12%;
@@ -103,7 +103,7 @@ button {
     opacity: 3;
 }
 
-button:hover {
+#shop:hover {
     background-color: white;
     color: black;
     transition: 0.8s;
@@ -427,4 +427,72 @@ p span {
      p{
         margin: 0;
      }
+}
+
+.skirtMaindiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4%;
+}
+
+.imageDiv{
+    justify-self: end;
+}
+.imageDiv img{
+    width: 100%;
+    margin-top: 30%;
+}
+
+.imageContent{
+    margin-top: 17%;
+}
+
+.imageContent h1, h3{
+    font-weight: 300;
+}
+
+.imageContent p{
+    font-weight: 300;
+    color: #808082;
+    margin-bottom: 2.4%;
+    margin-top: 4.4%;
+}
+
+#radioInput{
+    width: 25px;
+    height: 25px;
+    accent-color: green;
+}
+
+#quantity{
+    width: 9%;
+    padding: 2%;
+    border-radius: 0;
+    border: 1px solid rgb(109, 108, 108);
+}
+
+#size{
+    width: 50%;
+    border-radius: 0;
+    padding: 2%;
+    border: 1px solid rgb(109, 108, 108);
+}
+
+#cart{
+    width: 54.6%;
+    text-align: center;
+    border: 1px solid rgb(109, 108, 108);
+    padding: 1.6% 0 1.6% 0;
+}
+
+#buy{
+    width: 55%;
+    margin-top: 1.4%;
+    padding: 1.8%;
+    color: rgb(209, 209, 209);
+    font-size: large;
+    letter-spacing: 2px;
+    background-color: rgb(44, 44, 44);
+    border: 1px solid;
+
 }
