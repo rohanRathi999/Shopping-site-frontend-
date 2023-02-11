@@ -11,7 +11,7 @@ body {
     display: grid;
     grid-template-columns: 0.8fr 1.8fr 0.4fr;
     column-gap: 2%;
-    background-color: rgb(85, 82, 82);
+    background-color: #303132;
     position: fixed;
     top: 0;
     width: 100%;
@@ -92,10 +92,12 @@ img {
     font-weight: 600;
     font-size: 2.5rem;
 }
+#shop a{
+    color: aliceblue;
+}
 
 #shop {
     background-color: black;
-    color: aliceblue;
     padding: 1% 12%;
     margin-bottom: 3.5%;
     cursor: pointer;
@@ -103,12 +105,6 @@ img {
     opacity: 3;
 }
 
-#shop:hover {
-    background-color: white;
-    color: black;
-    transition: 0.8s;
-    border: none;
-}
 
 .shippingtxt {
     background-color: #d3d3d399;
@@ -441,15 +437,16 @@ p span {
 }
 
 .imageDiv{
-    justify-self: end;
+    text-align: end;
 }
+
 .imageDiv img{
-    width: 100%;
+    width: 70%;
     margin-top: 30%;
 }
 
 .imageContent{
-    margin-top: 17%;
+    margin-top: 25%;
 }
 
 .imageContent h1, h3{
@@ -466,7 +463,7 @@ p span {
 #radioInput{
     width: 25px;
     height: 25px;
-    accent-color: green;
+    accent-color: rgb(151, 113, 9);
 }
 
 #RadioInput{
