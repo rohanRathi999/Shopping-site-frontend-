@@ -267,6 +267,10 @@ i {
     margin-left: 5%;
 }
 
+i:hover {
+    color: rgb(135, 135, 247);
+}
+
 .outrodiv {
     grid-column: 1 / span 3;
 }
